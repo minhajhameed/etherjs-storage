@@ -17,7 +17,7 @@ contract SimpleStorage {
         storedNumber = _number;
     }
 
-    function getNumber() public view returns (uint256) {
+    function retrieve() public view returns (uint256) {
         return storedNumber;
     }
 
